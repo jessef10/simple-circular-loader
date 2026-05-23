@@ -1,0 +1,12 @@
+body {
+  div {
+    height: 16px;
+    width: 16px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: transparent;
+    border-radius: 16px;
+
+    background: rgb(230, 229, 229);
+  }
+}
