@@ -1,16 +1,14 @@
 :root {
-  --box-size: 16px;
+  --box-size: 32px;
 }
 
-body {
-  div {
-    height: var(--box-size);
-    width: var(--box-size);
-    border-width: 50%;
-    border-style: solid;
-    border-color: transparent;
-    border-radius: 16px;
+.loader {
+  height: var(--box-size);
+  width: var(--box-size);
 
-    background: rgb(230, 229, 229);
-  }
+  border: 4px solid transparent;
+  border-radius: var(--box-size);
+  background:
+    linear-gradient(#fff, #fff) padding-box,
+    linear-gradient(to right, deepskyblue, skyblue) border-box;
 }
