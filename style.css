@@ -1,8 +1,12 @@
+:root {
+  --box-size: 16px;
+}
+
 body {
   div {
-    height: 16px;
-    width: 16px;
-    border-width: 2px;
+    height: var(--box-size);
+    width: var(--box-size);
+    border-width: 50%;
     border-style: solid;
     border-color: transparent;
     border-radius: 16px;
